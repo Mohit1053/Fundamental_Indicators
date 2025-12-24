@@ -1,0 +1,15 @@
+Metric Name,Category,Weight (%),Weight (Decimal),Direction,Excellent Threshold,Very Good Range,Average Range,Poor Threshold,Eternal Ltd Value,Eternal Ltd Score,Rating
+Debt-to-Equity Ratio,Financial Health,7%,0.07,Lower is Better,≤0.0,0.0-0.5,0.5-2.0,>2.0,0.01,99.72,Very Good
+Current Ratio,Financial Health,7%,0.07,Higher is Better,≥3.0,1.5-3.0,0.5-1.5,<0.5,20.33,100.00,Excellent
+Interest Coverage Ratio,Financial Health,6%,0.06,Higher is Better,≥20x,5x-20x,1x-5x,<1x,64.85x,100.00,Excellent
+Return on Equity (ROE),Profitability,8%,0.08,Higher is Better,≥30%,15%-30%,5%-15%,<5%,6.75%,47.02,Average
+Return on Invested Capital (ROIC),Profitability,9%,0.09,Higher is Better,≥35%,15%-35%,5%-15%,<5%,13.00%,72.00,Good
+Net Profit Margin,Profitability,8%,0.08,Higher is Better,≥25%,10%-25%,3%-10%,<3%,24.91%,99.88,Very Good
+Revenue Growth (3Y CAGR),Growth,10%,0.10,Higher is Better,≥30%,15%-30%,5%-15%,<5%,26.95%,95.93,Very Good
+EPS Growth (3Y CAGR),Growth,10%,0.10,Higher is Better,≥30%,15%-30%,5%-15%,<5%,352.93%,100.00,Excellent
+Free Cash Flow Growth,Growth,5%,0.05,Higher is Better,≥25%,10%-25%,0%-10%,<0%,15.69%,87.59,Very Good
+Price-to-Earnings (P/E) Ratio,Valuation,7%,0.07,Lower is Better,≤10x,10x-20x,20x-40x,>40x,126.53x,0.00,Poor
+Price-to-Book (P/B) Ratio,Valuation,7%,0.07,Lower is Better,≤1.0x,1.0x-4.0x,4.0x-10.0x,>10x,8.36x,50.96,Average
+PEG Ratio,Valuation,6%,0.06,Lower is Better,≤0.5,0.5-1.5,1.5-3.0,>3.0,0.36,100.00,Excellent
+Asset Turnover Ratio,Efficiency,5%,0.05,Higher is Better,≥2.5x,1.0x-2.5x,0.5x-1.0x,<0.5x,0.26x,20.58,Below Average
+Inventory Turnover Ratio,Efficiency,5%,0.05,Higher is Better,≥12x,6x-12x,2x-6x,<2x,Infinity,100.00,Excellent

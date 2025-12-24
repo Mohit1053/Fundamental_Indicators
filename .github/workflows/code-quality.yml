@@ -1,0 +1,51 @@
+name: Code Quality
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  code-quality:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install flake8 black isort pylint bandit
+    
+    - name: Check code formatting with Black
+      run: |
+        black --check . || true
+      continue-on-error: true
+    
+    - name: Check import sorting with isort
+      run: |
+        isort --check-only . || true
+      continue-on-error: true
+    
+    - name: Lint with pylint
+      run: |
+        find . -name "*.py" -not -path "./.venv/*" -not -path "./venv/*" | xargs pylint --exit-zero || true
+      continue-on-error: true
+    
+    - name: Security check with bandit
+      run: |
+        bandit -r . -f json -o bandit-report.json || true
+      continue-on-error: true
+    
+    - name: Upload bandit report
+      uses: actions/upload-artifact@v3
+      with:
+        name: bandit-security-report
+        path: bandit-report.json
+      continue-on-error: true

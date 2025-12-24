@@ -1,0 +1,4 @@
+Zone,P/BV Range,Percentile
+Undervalued (Below 25%),< 5.88,0-25%
+Fair Value (25-75%),5.88 - 12.78,25-75%
+Overvalued (Above 75%),> 12.78,75-100%

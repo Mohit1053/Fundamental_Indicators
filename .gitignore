@@ -1,0 +1,179 @@
+# Credentials & Secrets
+credentials.json
+token.pickle
+*.pickle
+.env
+*.key
+*.pem
+config.ini
+secrets.yaml
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Analysis Output Files (Large)
+# Uncomment these if you want to exclude generated analysis files
+# **/analysis_results/
+# **/NIFTY500_Analysis_Results/
+# **/*_Analysis_Complete/
+# **/smallcap_results/
+
+# Large Data Files
+# Uncomment if your CSV files are too large for GitHub
+# *.csv
+# NIFTY50.csv
+# NIFTY500.csv
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~.nib
+
+# PDF files (optional - uncomment if you want to exclude)
+# *.pdf
+
+# Excel files (optional - uncomment if you want to exclude)
+# *.xlsx
+# *.xls
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache directories
+.cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+cython_debug/
+
+# Node modules (if any JavaScript tools are used)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Documentation builds
+docs/_build/
+docs/.doctrees/
+site/
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
